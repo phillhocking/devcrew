@@ -1,6 +1,6 @@
 
 $.ajax({
-    url: "https://raw.githubusercontent.com/j122885/devcrew/main/devrewmembers.csv",
+    url: "https://raw.githubusercontent.com/j122885/devcrew/main/devcrewmembers.csv",
     success: function(csv) {
         const output = Papa.parse(csv, {
           header: true, // Convert rows to Objects using headers as properties
